@@ -1,0 +1,39 @@
+.nav{
+display: flex;
+height: 50px;
+    /* background: url("../img5.jpg"); */
+background-size: 46%;
+/* border-bottom: 40px solid; */
+/* box-shadow: 30px 20px 20px 30px rgba(0, 0, 0, 0.671); */
+background-repeat: repeat;
+padding-top: 15px;
+padding-bottom: 10px;
+width: 1366px;
+}
+
+.createRecipeLink{
+
+    cursor: pointer;
+    border: dashed white 3px;
+    border-radius: 6px;
+margin-left: 50px;
+margin-right: 75px;
+width: 150px;
+height: 45px;
+font-size: 16px;
+color: white;
+background-color: rgb(7, 138, 143);
+transition: all 0.4s;
+}
+
+.createRecipeLink:hover{
+ 
+    cursor: pointer;
+    border: dashed rgb(7, 138, 143) 3px;
+    border-radius: 6px;
+
+padding: 10px;
+font-size: 16px;
+color: rgb(67, 188, 192);
+background-color: white;
+}

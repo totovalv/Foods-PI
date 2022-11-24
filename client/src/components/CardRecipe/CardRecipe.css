@@ -1,0 +1,296 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.detailContainer{
+    width: 1430px;
+    height: 740px;
+    background: url("./imgback.jpg");
+    background-size: 100%;
+    box-shadow: inset 20px 20px 50px 10px rgba(0, 0, 0, 0.774);
+
+}
+
+.cardDetail{
+    display: grid;
+    grid-gap: 30px;
+    margin-right: 120px;
+    grid-template-columns: repeat(2,6fr);
+    grid-template-rows: repeat(3,160px);
+    /* background-color: white; */
+    justify-items: center;
+    align-items:center;
+   
+}
+.cardDetail .titleDetail{
+    height: 18px;
+    box-shadow:  10px 20px 20px 20px rgba(0, 0, 0, 0.527);
+   font-size: 15px;
+    padding: 2%;
+    border: dashed  rgba(101, 86, 238, 0.473) 6px ;
+    width: 420px;
+    border-radius: 26px;
+    background-color:white;
+margin-bottom: 80px;
+transition: all 0.4s;
+}
+.cardDetail .titleDetail:hover{
+    padding: 3%;
+    font-size: 17px ;
+    border: dashed  rgba(250, 5, 5, 0.671) 6px ;
+}
+
+
+.cardDetail .dietsDetail{
+    font-size: 15px;
+    box-shadow:  10px 20px 20px 20px rgba(0, 0, 0, 0.692);
+    padding: 2%;
+    border: dashed  rgba(101, 86, 238, 0.473) 6px ;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.cardDetail .dietsDetail:hover{
+    padding: 3%;
+    border: dashed  rgba(250, 5, 5, 0.671) 8px ;
+}
+
+
+.cardDetail .stepDetail{
+    font-size: 16px;
+    box-shadow:  10px 20px 20px 20px rgba(0, 0, 0, 0.781);
+    padding: 2%;
+    border: dashed  rgba(101, 86, 238, 0.473) 6px ;
+    border-radius: 16px;
+    margin-bottom:10px;
+    background-color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+ 
+
+}
+.cardDetail .stepDetail:hover{
+    padding: 2%;
+    border: dashed rgba(250, 5, 5, 0.671)  8px ;
+}
+
+
+
+
+
+.cardDetail .hcdetail{
+    font-size: 15px;
+    box-shadow:  10px 20px 20px 20px rgba(0, 0, 0, 0.705);
+    padding: 1%;
+    border: dashed  rgba(101, 86, 238, 0.473) 6px ;
+    border-radius: 16px;
+  
+    margin-top: 220px;
+    transition: all 0.4s;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.cardDetail .hcdetail:hover{
+    padding: 2%;
+    border: dashed rgba(250, 5, 5, 0.671) 6px ;
+}
+.cardDetail .summaryDetail{
+    font-size: 15px;
+    box-shadow:  10px 20px 20px 20px rgba(0, 0, 0, 0.74);
+    padding: 2%;
+    border: dashed  rgba(101, 86, 238, 0.473) 6px ;
+    border-radius: 16px;
+    margin-top:200px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s;
+    cursor: pointer;
+  
+}
+
+.cardDetail .summaryDetail:hover{
+    padding: 2%;
+    border: dashed rgba(250, 5, 5, 0.671)  8px ;    
+}
+
+.tagDetail {
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  background: #cccccc;
+  border-radius: 110px;
+  font-size: 70%;
+  margin:0.5%;
+  margin-top: 5px;
+  color: #fff;
+  padding: 5px  16px;
+  
+
+  justify-content:space-around;
+
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.tagDetail-purple {
+  background-color: #5e76bf;
+    transition:all 0.2s;;
+}  
+.tagDetail-purple:hover{
+  font-size: 68;
+color:#5e76bf ;
+background-color: white;
+border: solid #5e76bf 2px;
+
+} 
+
+.tagDetail-green {
+    background-color: #46AC50   ;
+     transition:all 0.2s;;
+  }
+  .tagDetail-green:hover{
+    font-size: 68;
+    color:#46AC50 ;
+    background-color: white;
+    border: solid #46AC50 2px;
+
+  } 
+  .tagDetail-red {
+    background-color: rgba(196, 66, 66, 0.712)   ;
+     transition:all 0.2s;;
+  }
+  .tagDetail-red:hover{
+    font-size: 68;
+    color:rgba(196, 66, 66, 0.712)  ;
+    background-color: white;
+    border: solid rgba(196, 66, 66, 0.712)  2px;
+
+  } 
+  .tagDetail-grey {
+    background-color: rgb(24, 22, 22)   ;    transition:all 0.2s;;
+  }
+  .tagDetail-grey:hover{
+    font-size: 68;
+    color: rgb(24, 22, 22)  ;
+    background-color: white;
+    border: solid  rgb(24, 22, 22)  2px;
+
+  } 
+  .tagDetail-gr {
+    background-color:  rgb(37, 245, 158) ;    transition:all 0.2s;;
+  }
+  .tagDetail-gr:hover{
+    font-size: 68;
+    color:  rgb(37, 245, 158) ;
+    background-color: white;
+    border: solid   rgb(37, 245, 158)2px;
+
+  } 
+  .tagDetail-ovo {
+    background-color: #ef8f35be ;    transition:all 0.2s;;
+  }
+  .tagDetail-ovo:hover{
+    font-size: 68;
+    color:#ef8f35be ;
+    background-color: white;
+    border: solid #ef8f35be 2px;
+
+  } 
+  .tagDetail-who {
+    background-color: rgb(226, 121, 179) ;    transition:all 0.2s;;
+  }
+  .tagDetail-who:hover{
+    font-size: 68;
+    color:rgb(226, 121, 179) ;
+    background-color: white;
+    border: solid rgb(226, 121, 179) 2px;
+
+  } 
+  .tagDetail-pes {
+    background-color: rgb(31, 133, 196) ;    transition:all 0.2s;;
+  }
+  .tagDetail-pes:hover{
+    font-size: 68;
+    color: rgb(31, 133, 196) ;
+    background-color: white;
+    border: solid  rgb(31, 133, 196) 2px;
+
+  } 
+  .tagDetail-fod {
+    background-color: rgb(122, 31, 196) ;    transition:all 0.2s;;
+  }
+  .tagDetail-fod:hover{
+    font-size: 68;
+    color:rgb(122, 31, 196)  ;
+    background-color: white;
+    border: solid rgb(122, 31, 196)  2px;
+
+  } 
+  .tagDetail-dai {
+    background-color: rgb(74, 76, 184) ;    transition:all 0.2s;;
+  }
+  .tagDetail-dai:hover{
+    font-size: 68;
+    color: rgb(74, 76, 184)  ;
+    background-color: white;
+    border: solid  rgb(74, 76, 184) 2px;
+
+  } 
+
+  .homebutton{
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+padding: 5px;
+width: 90px;
+border-radius: 12px;
+border: dashed rgba(122, 31, 196, 0.705)  4px;
+cursor: pointer;
+font-size: 15px;
+ transition: all 0.4s;
+  }
+
+  .homebutton:hover{
+ 
+    font-size: 17px;
+    border: dashed rgba(42, 212, 255, 0.596)  4px;
+  }
+  .Crbutton{
+    border-radius: 12px;
+    padding: 5px;
+    border: dashed rgba(122, 31, 196, 0.705)  4px;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 15px;
+  }
+  
+.Crbutton:hover{
+    padding: 7px;
+    font-size: 17px;
+    border: dashed rgba(2, 202, 125, 0.596)  4px; 
+}
+
+
+  .cardDetail .imgdetail{
+    
+    width: 380px;
+    height: 290px;
+    box-shadow:  10px 20px 20px 20px rgba(0, 0, 0, 0.76);
+justify-self: center;
+border-radius: 90px;
+padding: 7%;
+border: dashed  rgba(101, 86, 238, 0.473) 8px ;
+background-color: rgb(238, 237, 237);
+transition: all 0.4s;
+cursor: pointer;
+margin-top: 75px;
+}
+
+.cardDetail .imgdetail:hover{
+    padding: 8%;
+    border: dashed rgba(250, 5, 5, 0.671) 10px ;
+}

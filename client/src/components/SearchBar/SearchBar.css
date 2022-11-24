@@ -1,0 +1,46 @@
+.inputSearchBar{
+    border: solid rgb(153, 155, 152) 3px;  
+ color: #000;
+ background-color: aliceblue;
+ width: 175px;
+height: 30px;
+margin-left: 760px;
+border-radius: 6px;
+transition: all 0.5s;
+}
+.inputSearchBar:focus{
+    border: solid rgb(153, 155, 152) 3px;
+    outline: none;
+
+}
+.inputSearchBar:active{
+    border: solid rgb(153, 155, 152) 3px;
+    outline: none;
+ 
+}
+.inputSearchBar:hover{
+    border: solid rgb(153, 155, 152) 3px;
+    outline: none;
+   
+}
+
+.buttonSearchBar{
+    margin-left: 10px;
+    border: dashed rgb(118, 36, 194) 4px;
+    border-radius: 8px;
+    font-size: 15px;
+    color:rgb(118, 36, 194) ;
+    height: 42px;
+    width: 88px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.buttonSearchBar:hover{
+    color: white;
+    border: dashed white 4px;
+    background-color: rgb(118, 36, 194);
+    /* font-size: 17px;
+    height: 40px;
+    width: 89px; */
+    cursor: pointer;
+}

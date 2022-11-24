@@ -1,0 +1,109 @@
+.contain{
+    display: flex;
+    width: 1370px;
+    height: 554px;
+    box-shadow: inset  15px 50px 40px 35px rgba(0, 0, 0, 0.685);
+
+    background-size: 100%;
+    background: url("./imglanding.jpg");
+ 
+}
+
+
+
+
+
+.aboutbutton{
+
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-right: 350px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    margin-top: 10px;
+    justify-content: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-image: url("./btn.png");
+    background-size: 120%;
+    border: solid 0px  ;
+    border-radius: 30px;
+
+    transition: all 0.2s;
+    font-size: 26px;
+    color: white    ;
+    cursor: pointer;
+}
+.aboutbutton:hover{
+    background-image: url("../btnBorder.jpg");
+    background-size: 120%;
+    font-size: 33px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.HomeBtn{
+
+    color: white;
+    margin-top: 5px;
+    padding: 30px;
+    cursor: pointer;
+    background-image: url("./btn.png");
+    background-size: 120%;
+    border: solid 0px ;
+    border-radius: 30px;
+    box-shadow:  15px 20px 40px 35px rgba(0, 0, 0, 0.466);
+  transition: all 0.2s;
+  font-size: 30px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+
+}   
+
+
+.HomeBtn:hover{
+    padding: 35px;
+    font-size: 32px;
+    box-shadow:  15px 20px 40px 35px rgba(0, 0, 0, 0.582);
+      background: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.sectionHome{
+    box-shadow: inset 15px 20px 40px 35px rgba(0, 0, 0, 0.658);
+    transition: all 0.4s;
+    margin-top: 130px;
+    margin-right: 221px;
+    justify-content: center;
+    background-image: url("./grey.jpg");
+    background-size: 160%;
+    width: 380px;
+    height: 320px;
+    border-radius: 100px;
+    border: solid 10px;
+    border-image-source: url("../greyBorder.jpg");
+    border-image-slice: 0 ;
+    border-image-width: 0%;
+}
+.sectionHome:hover{
+    margin-top: 110px;
+
+    padding: 20px;
+
+}
+
+.landingTitle{
+    font-style:inherit;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-top: 45px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    margin-left: 21px;
+    transition: all 0.2s;
+    letter-spacing: 1px;
+}
+.landingTitle:hover{
+    font-size: 38px;margin-left: 25px;
+}

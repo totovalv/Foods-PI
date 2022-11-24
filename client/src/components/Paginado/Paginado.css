@@ -1,0 +1,142 @@
+.paginadoContainer{
+display:inline-flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+}
+/*filters*/
+.navContainer{
+    background: url("../img6.jpg");
+    background-size: 30%;
+    background-repeat: repeat;
+    box-shadow: inset 5px 10px 10px 5px rgba(0, 0, 0, 0.514);
+    height: 70px;
+    padding-top: 12PX;
+    width: 102%;
+   
+}
+
+.filterdiet{
+    text-align: center;
+    margin-right: 15px;
+    width:250px ;   
+    height:27px ;
+border-radius: 8px;
+font-family:'Courier New', Courier, monospace;
+font-size: 19px;
+transition: all 0.4s;
+box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.685);
+}
+
+.filterdiet:hover{
+    width:260px ;
+    height:30px ;
+    font-size: 21px;
+}
+.filterHc{
+    text-align: center;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.685);
+    margin-right: 15px;
+    width:250px ;
+    height:27px ;
+    border-radius: 8px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 19px;
+    transition: all 0.4s;
+}
+.filterHc:hover{
+    width:260px ;
+    height:30px ;
+    font-size: 21px;
+}
+.filterAZ{
+    text-align: center;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.685);
+    margin-right: 15px;
+    width:250px ;
+    height:27px ;
+    border-radius: 8px;
+font-family:'Courier New', Courier, monospace;
+font-size: 19px;
+transition: all 0.4s;
+}
+.filterAZ:hover{
+    width:260px ;
+    height:30px ;
+    font-size: 21px;
+}
+
+
+.page{
+    cursor: pointer;
+    height: 20px;
+padding: 5px;
+width: 25px;
+margin-right: 5px; 
+background-color:  #4468d1;
+border-radius: 6px;
+text-align: center;
+color: white;
+font-family:'Courier New', Courier, monospace;
+border:solid  white 2px;
+transition-duration: 0.4s;
+font-size: 17px;
+}
+.page:hover{
+    color:  #4468d1;
+    background-color: white;
+    width: 29px;
+    height: 23px;
+    font-size: 22px;
+    border:solid  #4468d1 2px;
+}
+.page:focus{
+    padding: 3px;
+    width: 29px;
+    height: 23px;
+    font-size: 22px;
+    background-color: #4468d1;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:solid #4468d1 2px;
+    border:solid  #4468d1 2px;
+}
+.page:active{
+    padding: 3px;
+    width: 29px;
+    height: 23px;
+    background-color: #4468d1;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:solid  #4468d1 2px;
+    font-size: 22px;
+    border:solid  #4468d1 2px;
+}
+
+.Rbutton{
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.685);
+    transition: all 0.7s;
+    color:#FF6187;
+    background-color:white;
+    width: 140px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 8px;
+    border: dashed #FF6187 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.Rbutton:hover{
+    color:white;
+    background-color:#FF6187;
+    border: dashed white 4px;
+    width: 145px;
+    height: 45px;
+    font-size: 23px;
+}

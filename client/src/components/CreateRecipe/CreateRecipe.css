@@ -1,0 +1,383 @@
+
+
+.form{
+
+    display: flex;
+      flex-wrap: wrap ;
+    flex-direction: row;
+    justify-content:center;
+    text-align: center;
+    gap: 20px;
+      padding: 20px;
+      padding-bottom: 90px;
+    background-repeat: no-repeat;
+    background-image: url("./img2.jpg");
+    box-shadow:inset 5px 20px 30px 30px rgba(0, 0, 0, 0.822);
+    background-color: black;
+    background-size: 109%;
+    
+
+ 
+}
+.title{
+  background: url("../img5.jpg");
+  color: rgba(255, 255, 255, 0.938);
+  margin-right: 55px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  background: url("file:///C:/Users/fabia/Desktop/PI-Food-main/client/src/components/button.webp");
+  height: 130px;
+  width: 430px;
+  border-radius: 12px;
+  box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.589);
+
+}
+
+.errLabel{
+  width: 110px;
+  font-size: 10px;
+  margin-left: 35px;
+}
+
+
+.backButton{
+ 
+  margin-top: 18px;
+  margin-bottom: 23px;
+  margin-right: 55px;
+ 
+background-color:#FC0742;
+color: white;
+border: solid #FC0742 5px;
+border-radius: 8px;
+padding: 15px 32px;
+text-align: center;
+font-size: 18px;
+cursor: pointer;
+transition-duration: 0.4s;
+box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.589);
+  /* -webkit-text-fill-color: transparent; */
+-webkit-text-stroke-width:1px ;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.backButton:hover{
+    background-color: white; 
+    color:#FC0742;
+}
+
+.body-form{
+    height: 530px;
+    width: 640px;
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    text-align: center;
+    gap: 20px;
+    padding-right: 5px;
+    background: url("./img3.jpg");
+    background-size: 100%;
+    margin-top: 20px;
+    margin-right: 140px;
+    margin-left: 90px;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.808);
+    overflow: hidden;
+    border: 20px solid;
+    border-image-source:url("./img.jpg");
+    border-image-slice: 30;
+}
+
+.createButton{
+    background-color: #4CAF50; /* Green */
+    border: solid #4CAF50 4px ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: 13%;
+    margin-top: 15%;
+    font-size: 16px;
+    cursor: pointer;  
+    border-radius: 8px;  
+    transition-duration: 0.4s;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width:1px ;
+    font-family:'Monaco', monospace;
+    box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.589);
+}
+
+.createButton:hover{
+    background-color: white; 
+    color: #4CAF50;
+  
+}
+.deleteDiet{
+   color: white;
+   /* background-color: #2FB1D2; */
+    font-size: 13px;
+    font-family: 'Monaco', monospace;
+    font-style: italic;
+    width:160px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: 77px;
+    margin-top: 6px;
+    transition-duration: 0.4s;
+    box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.589);
+    border-radius: 8px;
+    padding-right: 12px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.deleteDiet:hover{
+  width:162px;
+  height: 43px;
+}
+
+
+
+
+.deleteButton{  
+    background-color: #f44336; 
+    border: solid #f44336 2px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 19px;
+    width: 23px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    font-size: 11px;
+
+     
+
+}
+.deleteButton:hover{
+    background-color: white; 
+    color: #f44336;
+    height: 22px;
+    width: 24px;
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+
+
+
+  .label{
+    display: flex;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width:1px ;
+  font-family:'Monaco', monospace;
+    width: 140px;
+
+    flex-wrap: wrap ;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 4%;
+  }
+  
+.divSelect{
+    display: flex; 
+    margin-top: 20px;  
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+.inputClass{
+  background-color:rgba(255, 255, 255, 0.801);
+    width: 113%;
+    height: 25px;
+    font-size: 12px;
+    padding: 4px 7px;
+    margin-left:23%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Monaco', monospace;
+    justify-content: right;
+    transition-duration: 0.4s;
+  }
+  .inputErr{
+    background-color:rgba(255, 255, 255, 0.801);
+    width: 113%;
+    height: 25px;
+    font-size: 12px;
+    padding: 4px 7px;
+    margin-left:23%;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Monaco', monospace;
+justify-content: right;
+
+  }
+  .inputErr:focus{
+    border: solid red 1px;
+    outline: none;
+    width: 114%;
+    height: 29px;
+    
+  }
+  .inputErr:active{
+    border: solid red 1px;
+      outline: none; 
+      width: 114%;
+      height: 29px;  
+    }
+    .inputClass:focus{
+      border: solid #ccc;
+      outline: none;
+      width: 114%;
+      height: 29px;
+      
+    }
+    .inputClass:active{
+        border: solid #ccc;
+        outline: none;
+        width: 114%;
+        height: 29px;
+      }
+    
+  .selectClass{
+    background-color:rgba(255, 255, 255, 0.726);
+    width: 108%;
+    height: 33px;
+    font-size: 12px;
+    padding: 4px 7px;
+    margin-left:25%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Monaco', monospace;
+justify-content: right;
+transition-duration: 0.4s;
+  }
+
+  .selectClass:focus{
+    background-color:rgba(255, 255, 255, 0.726);
+    width: 110%;
+    height: 38px;
+  }
+ .selectClass:active{
+  background-color:rgba(255, 255, 255, 0.726);
+  width: 110%;
+  height: 38px;
+  }
+  .selectClass:any-link{
+    background-color:rgba(255, 255, 255, 0.726);
+    width: 110%;
+    height: 38px;
+  }
+
+
+
+
+
+
+.error{
+    background: red;
+    display: flex;
+    justify-content: right;
+    overflow-wrap:break-word; 
+    width: 220px;
+    height: 30px;   
+}
+
+.padding{
+
+    padding-top: 15px;
+    padding-left: 3px;
+  
+   
+}
+
+
+
+.inputClassLarge{
+  background-color:rgba(255, 255, 255, 0.801);
+    width: 113%;
+    height: 70px;
+    font-size: 12px;
+    padding: 4px 7px;
+    
+    margin-left:23%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    font-family: 'Monaco', monospace;
+    justify-content: right;
+    transition-duration: 0.4s;
+  }
+  
+  .inputErrLarge{
+    background-color:rgba(255, 255, 255, 0.801);
+    width: 113%;
+    height: 25px;
+    font-size: 12px;
+    padding: 4px 7px;
+    margin-left:23%;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Monaco', monospace;
+justify-content: right;
+transition-duration: 0.4s;
+
+  }
+  .inputClassLarge:focus{
+    border: solid #ccc;
+    outline: none;
+    width: 114%;
+    height: 75px; 
+    
+  }
+  .inputClassLarge:active{
+      border: solid #ccc;
+      outline: none;
+      width: 114%;
+      height: 75px; 
+      
+    }
+  .inputErrLarge:focus{
+    border: solid red 1px;
+    outline: none;
+    width: 114%;
+      height: 75px; 
+    
+  }
+  .inputErrLarge:active{
+    border: solid red 1px;
+      outline: none;  
+      width: 114%;
+      height: 75px; 
+    }
+
+    .choosenDiets{
+      -webkit-text-fill-color: black;
+      -webkit-text-stroke-width:1px ;
+      color: white;
+ padding-left: 83px;
+ font-size: 16px;
+ font-family: 'Monaco', monospace;
+
+    }
+
+    .hc{
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}

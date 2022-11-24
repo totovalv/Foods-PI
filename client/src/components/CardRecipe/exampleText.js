@@ -1,0 +1,5 @@
+
+
+let text  ='In a bowl, wash the snails with lime and salt till all the slime is gone. Place the snail in a pot with the chili powder, seasoning cubes, chopped garlic, 1/2 of the onion(chopped) and a pinch of salt and bring to boil for about 15-18 minutes.In a separate pot, place the tomatoes, bell pepper, scotch bonnet peppers, crush with a wooden spoon till some of the juices come out and bring to boil till they are all soft on low heat. (This helps to dry up some of the extra water from the tomatoes)In a pot, pour in your oil, cut your onions in rings and fry in the hot oil on medium heat.Pour in your tomato-pepper mix and allow to fry for about 8-10 minutes on low heat.Pour in the left-over stock from the snail and allow to cook for 5 more minutes on medium heat.Add your seasoning cubes and taste for salt.Add your snails and stir in and allow to stew for 2-4 minutes more on medium heat.Serve with Rice, Pasta, Plantain, Yams or Potatoes.'
+
+export default text

@@ -1,0 +1,191 @@
+
+.card {
+  flex-basis: 0;
+  flex-grow: 9999;
+    
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 20px 20px 20px rgba(0, 0, 0, 0.432);
+  overflow: hidden;
+  overflow-wrap:break-word; 
+  width: 350px;
+  transition: all 0.4s;
+}
+
+.card:hover{
+
+background-color: #fff;
+  box-shadow: 10px 20px 20px 20px rgba(0, 0, 0, 0.432);
+overflow: hidden;
+overflow-wrap:break-word; 
+width: 362px;
+}
+
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.tag {
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  background: #cccccc;
+  border-radius: 110px;
+  font-size: 70%;
+  margin:0.5%;
+  margin-top: 5px;
+  color: #fff;
+  padding: 5px  16px;
+  
+
+  justify-content:space-around;
+
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.tag-purple {
+  border: solid #5e76bf 1px;
+  background-color: #5e76bf;
+  transition:all 0.5s;
+}  
+.tag-purple:hover{
+  /* font-size: 68%; */
+color:#5e76bf ;
+background-color: white;
+
+
+} 
+
+.tag-green {
+  border: solid #46AC50 1px;
+    background-color: #46AC50   ;
+     transition:all 0.5s;
+  }
+  .tag-green:hover{
+    
+    color:#46AC50 ;
+    background-color: white;
+  
+
+  } 
+  .tag-red {
+    border: solid rgba(196, 66, 66, 0.712)  1px;
+    background-color: rgba(196, 66, 66, 0.712)   ;
+    transition:all 0.5s;
+  }
+  .tag-red:hover{
+    
+    color:rgba(196, 66, 66, 0.712)  ;
+    background-color: white;
+   
+
+  } 
+  .tag-grey {
+    border: solid  rgb(24, 22, 22)  1px;
+    background-color: rgb(24, 22, 22)   ;      transition:all 0.5s;
+  }
+  .tag-grey:hover{
+    
+    color: rgb(24, 22, 22)  ;
+    background-color: white;
+   
+
+  } 
+  .tag-gr {
+    border: solid   rgb(37, 245, 158)1px;
+    background-color:  rgb(37, 245, 158) ;     transition:all 0.5s;
+  }
+  .tag-gr:hover{
+    
+    color:  rgb(37, 245, 158) ;
+    background-color: white;
+
+
+  } 
+  .tag-ovo {
+    border: solid #ef8f35be 1px;
+    background-color: #ef8f35be ;     transition:all 0.5s;
+  }
+  .tag-ovo:hover{
+    
+    color:#ef8f35be ;
+    background-color: white;
+
+
+  } 
+  .tag-who {   border: solid rgb(226, 121, 179) 1px;
+    background-color: rgb(226, 121, 179) ;    transition:all 0.5s;
+  }
+  .tag-who:hover{
+    
+    color:rgb(226, 121, 179) ;
+    background-color: white;
+ 
+
+  } 
+  .tag-pes {
+    border: solid  rgb(31, 133, 196) 1px;
+    background-color: rgb(31, 133, 196) ;     transition:all 0.5s;
+  }
+  .tag-pes:hover{
+    
+    color: rgb(31, 133, 196) ;
+    background-color: white;
+
+
+  } 
+  .tag-fod {
+    border: solid rgb(122, 31, 196)  1px;
+    background-color: rgb(122, 31, 196) ;      transition:all 0.5s;
+  }
+  .tag-fod:hover{
+    
+    color:rgb(122, 31, 196)  ;
+    background-color: white;
+ 
+
+  } 
+  .tag-dai {
+    border: solid  rgb(74, 76, 184) 1px;
+    background-color: rgb(74, 76, 184) ;     transition:all 0.5s;
+  }
+  .tag-dai:hover{
+    
+    color: rgb(74, 76, 184)  ;
+    background-color: white;
+   
+
+  } 
+
+.card-body  {
+
+  font-family:'Courier New', Courier, monospace;
+    
+  font-size: 90%;
+  margin: 10 0 20px;
+  
+  
+}
+.cardTitle{
+  /* background-color: #46AC50; */
+    font-family:'Courier New', Courier, monospace;
+    display: inline-flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    width: 50%;
+    height: 40%;
+    font-size: 90%;
+    padding: 10px;
+    transition:all 0.5s;
+}
+.cardTitle:hover{
+  padding: 13px;
+
+
+
+}
